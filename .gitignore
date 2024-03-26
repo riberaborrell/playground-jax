@@ -1,0 +1,23 @@
+# data files
+data/
+
+# notebook checkpoint files
+*/.ipynb_checkpoints/
+
+# pyenv version file
+.python-version
+
+# virtual environment
+venv/
+
+# egg info files
+*.egg-info
+
+# python compilation files
+*.pyc
+
+# state files
+*.swp
+
+# pycharm idea
+.idea/
