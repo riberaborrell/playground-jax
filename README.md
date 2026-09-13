@@ -1,11 +1,19 @@
-# jax
+# JAX Playground
 
 ## Contains
 Collection of notebooks about:
-* **Autodiff:** jax automatic differentiation for real functions, real-valued functions (scalar) and vector-valued functions with and without batch input.
-* **Regression problem:**: fitting problem for real-valued functions 1d and 2d with diferent basic neural network architectures with equinox and flax.
-* **Sampling:** simulating brownian motion (toy sde) with finite time horizon and first hitting times
-* **Stochastic optimization problems:** the loss function has to be sampled at each iteration. Finite time horizon and first hitting time horizon.
+
+#### Autodifferentiation
+* Jax automatic differentiation for real functions, real-valued functions (scalar), and vector-valued functions with and without batch input.
+* Jacovian-vector product (JVP) and vector-Jacobin products (VJP)
+
+#### Regression Problem
+* Simple linear regression
+* One-dimensional regression problem (simple SGD)
+* Regression problem for real-valued functions 1d and 2d with different type of optimizers with `optax` and basic neural network architectures with `equinox` and `flax`.
+
+#### Sampling
+* simulation of a _Brownian motion_ (toy sde) with finite time horizon and first hitting time
 
 
 ## Install
